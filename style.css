@@ -1,0 +1,36 @@
+body{
+    font-family: 'Alegreya', serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+.purple{
+    color: darkmagenta;
+
+}
+.pink{
+    color: deeppink;
+}
+section{
+    display: flex;
+}
+.size{
+    width: 60%;
+    padding-left: 8%;
+}
+.size p{
+font-size: 20px;
+}  
+.link-button{
+    text-decoration: none;
+    background-image:linear-gradient(purple,hotpink) ;
+    color: wheat;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 5px;
+    
+}
+.top-design{
+    background-image: url(top-banner.png);
+}
