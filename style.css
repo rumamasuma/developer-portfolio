@@ -7,36 +7,104 @@ h1{
 }
 .purple{
     color: darkmagenta;
-
 }
 .pink{
     color: deeppink;
 }
-section{
+h1{
+    font-size: 40px;
+}
+.flexible-container{
     display: flex;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
+    padding-top: 20px;   
+}
+.flexible-container img{
+    border-image: 10px solid orange;
 }
 .size{
     width: 50%;
-    padding-left: 5%;
+    padding-left: 5%;   
 }
 .size p{
 font-size: 20px;
-}  
+border :5px solid rgb(150, 136, 136);
+border-radius: 20px;
+margin: 20px ;
+padding: 20px 50px ;
+text-align:left;
+} 
+.size h1{
+    font-style: italic;
+    color: indigo;
+} 
+h3{
+    font-style: inherit;
+    font-size: 25px;
+    color: maroon;
+    text-align:left;
+}
+h4{
+    font-style: oblique;
+    color: rgb(37, 36, 36);
+    text-align:center;
+}
 .link-button{
     text-decoration: none;
     background-image:linear-gradient(purple,hotpink) ;
     color: wheat;
     font-weight: 700;
+    text-align: center;
     padding: 10px 20px;
     border-radius: 10px;
-    
+    margin-right: 20px;   
 }
 .top-design{
     background-image: url(top-banner.png);
+    background-repeat: no-repeat;
 }
 .owner{
     background-image: url(dream-bg.png);
     background-repeat: no-repeat;
     background-position:right;
+}
+.experience h1 {
+    text-align: left;
+    color: rgb(26, 26, 110);
+    margin: 50px;
+}
+#silk h1{
+    color:rgb(122, 5, 5);
+}
+#hand h1{
+    color: rgb(35, 107, 66);
+}
+.border{
+    width: 40%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 5px;
+    box-shadow: 10px 10px 30px gray;
+    border-radius:10px ;background-color: rgb(226, 206, 217);
+}
+p{
+    font-size: 20px;
+    margin: 5%;
+}
+#new{
+    text-align: center;
+    width: 30%;
+    height: 40%;
+    margin-left: 6%;
+    margin-right: 4%;
+    padding-left: 10px;
+    box-shadow: 10px 10px 30px gray;
+    border-radius:10px ;background-color: rgb(224, 214, 220);
+    background-position: center;
+}
+.button{
+    text-align: center;
+}
+footer p{
+    text-align: center;
 }
